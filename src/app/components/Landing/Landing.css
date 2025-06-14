@@ -1,0 +1,26 @@
+/* By default, hide Hero */
+.landing-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* optional, prevents page scrollbars */
+}
+
+/* Show Hero on smaller screens */
+@media (max-width: 1024px) {
+  .hero {
+    display: block; /* or flex, depending on your Hero styling */
+  }
+
+  .landing-container {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+  }
+
+  .hero-scrollable {
+    width: 100%;
+    height: auto;
+  }
+}
