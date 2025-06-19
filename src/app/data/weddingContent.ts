@@ -1,4 +1,18 @@
 export const weddingContent = {
+  groom: {
+    name: "Chris",
+    image: "https://example.com/chris.jpg",
+  },
+  bride: {
+    name: "Amaira",
+    image: "https://example.com/amira.jpg",
+  },
+  date: "Saturday, June 15, 2024",
+  location: "Lima, Peru",
+  rsvpLink: "https://example.com/rsvp",
+  weddingHashtag: "#AmairaAndChris2024",
+  weddingTheme: "Metallic Dipped Gold",
+  weddingColorPalette: ["#c15b00", "#f0e68c", "#ffffff"],
   story: {
     heading: "Story",
     paragraphs: [

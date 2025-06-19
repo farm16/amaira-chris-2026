@@ -1,0 +1,154 @@
+/* Burger Button Container */
+.burger-button-container {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Fade-out when hidden */
+.burger-button-container.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Burger Button */
+.burger-button {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Burger Lines */
+.burger-button span {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #333;
+  margin: 2.5px 0;
+  transition: all 0.3s ease;
+}
+
+/* Optional: Remove this if no line animation is needed anymore
+.burger-button.open span:nth-child(1),
+.burger-button.open span:nth-child(2),
+.burger-button.open span:nth-child(3) {
+  // No longer animating, so this is obsolete
+}
+*/
+
+/* Button Text */
+.burger-button-text {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Menu Styles */
+.burger-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  width: 320px;
+  background-color: #fff;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease-in-out;
+  z-index: 1000;
+  padding-top: 2rem;
+}
+
+/* Slide-in Menu */
+.burger-menu.open {
+  left: 0;
+}
+
+/* Menu List */
+.burger-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Menu Item */
+.burger-menu-item {
+  margin: 1.5rem 1rem;
+}
+
+.burger-menu-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.burger-menu-item a:hover {
+  color: var(--primary-color, #c15b00);
+}
+
+.close-button-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.navbar-container {
+  background-color: rgb(255, 252, 249);
+  color: green;
+}
+
+.navbar-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  list-style: none;
+  height: 100%;
+}
+
+.navbar-container li {
+  align-self: stretch;
+  padding: 10px 10px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgb(174, 190, 148);
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.navbar-container li:hover {
+  color: rgb(174, 190, 148);
+  background-color: rgba(174, 190, 148, 0.1);
+  transition: background-color 0.3s ease;
+  border-radius: 25px;
+  /* pointer */
+  cursor: pointer;
+}
+
+.burger-menu-title {
+  font-size: 2.2rem;
+  color: var(--text-color);
+  padding: 20px;
+  font-weight: 400;
+  color: rgb(174, 190, 148);
+}

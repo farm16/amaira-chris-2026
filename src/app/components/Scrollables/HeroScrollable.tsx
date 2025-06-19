@@ -6,6 +6,8 @@ import { weddingContent } from "@/app/data/weddingContent";
 export default function HeroScrollable() {
   const { story, tidbits, whereToStay } = weddingContent;
 
+  // i need to check if domain has #tidbits and scroll to it i need to react to it
+
   return (
     <section className="hero-scrollable">
       <div className="hero-scrollable-content">
@@ -13,28 +15,29 @@ export default function HeroScrollable() {
         <div id="hero-scrollable-first" className="hero-scrollable-section">
           <div className="hero-scrollable-first-title">
             <h2>Lima, Peru</h2>
-            <a href="#hero-scrollable-second">View Details</a>
+            <a href="#story">View Details</a>
             <ChevronDown />
           </div>
           <Image
             src="https://withjoy.com/assets/public/styles/prod/metallic_dipped_gold/6f3cda6b4fe671154cca8984ac7404730c3dd7262d643b3427fbd202bbf28bbf@2x"
             alt="Lima, Peru"
             width={800}
-            height={200}
+            height={150}
             className="hero-scrollable-image"
           />
         </div>
 
         {/* Story Section */}
-        <div id="hero-scrollable-second" className="hero-scrollable-section">
+        <div id="story" className="hero-scrollable-section">
           <h2>{story.heading}</h2>
           {story.paragraphs.map((text, index) => (
             <p key={index}>{text}</p>
           ))}
+          <div className="spacer" />
         </div>
 
         {/* Tidbits Section */}
-        <div id="hero-scrollable-third" className="hero-scrollable-section">
+        <div id="tidbits" className="hero-scrollable-section">
           <h2>{tidbits.heading}</h2>
           {tidbits.qa.map(({ question, answer }, index) => (
             <div className="hero-scrollable-section-qa" key={index}>
@@ -42,10 +45,11 @@ export default function HeroScrollable() {
               <p className="hero-scrollable-section-answer">{answer}</p>
             </div>
           ))}
+          <div className="spacer" />
         </div>
 
         {/* Where to stay */}
-        <div id="hero-scrollable-fourth" className="hero-scrollable-section">
+        <div id="whereToStay" className="hero-scrollable-section">
           <h2>{whereToStay.heading}</h2>
           <p className="hero-scrollable-section-description">
             {whereToStay.description}
@@ -81,6 +85,7 @@ export default function HeroScrollable() {
               </li>
             ))}
           </ul>
+          <div className="spacer" />
         </div>
       </div>
     </section>

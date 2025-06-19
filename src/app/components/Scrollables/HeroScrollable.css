@@ -33,6 +33,12 @@
   padding-bottom: 100px;
 }
 
+.spacer {
+  min-height: 200px;
+  background-color: transparent;
+  width: 100%;
+}
+
 .hero-scrollable-content p {
   margin-bottom: 1rem;
   line-height: 1.6;
@@ -50,7 +56,7 @@
   height: 100vh;
 }
 
-#hero-scrollable-second {
+#story {
   height: 100vh;
 }
 
@@ -134,7 +140,7 @@
   width: 100%;
   padding: 20px;
 }
-#hero-scrollable-fourth ul {
+#whereToStay ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +151,7 @@
   margin: 0;
 }
 
-#hero-scrollable-fourth li {
+#whereToStay li {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -156,7 +162,7 @@
   background-color: var(--white);
 }
 
-#hero-scrollable-fourth h3 {
+#whereToStay h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   color: var(--text-color);
