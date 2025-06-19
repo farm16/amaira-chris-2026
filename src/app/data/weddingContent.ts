@@ -62,6 +62,8 @@ export const weddingContent = {
         address: "123 Ocean Drive, Miraflores, Lima",
         description:
           "A beautiful hotel with ocean views and a special rate for our guests.",
+        image:
+          "https://withjoy.com/media/joy-places/8123c0d0-1b92-5c27-a359-1e5607af1ad9",
         link: "https://example.com/hotel-miraflores",
       },
       {
@@ -69,12 +71,16 @@ export const weddingContent = {
         address: "456 Sunset Blvd, Miraflores, Lima",
         description:
           "Luxury suites with all the amenities you need for a comfortable stay.",
+        image:
+          "https://withjoy.com/media/joy-places/8123c0d0-1b92-5c27-a359-1e5607af1ad9",
         link: "https://example.com/lima-luxury-suites",
       },
       {
         name: "Cozy Inn",
         address: "789 Beachside Ave, Miraflores, Lima",
         description: "A cozy inn with a warm atmosphere and friendly staff.",
+        image:
+          "https://withjoy.com/media/joy-places/8123c0d0-1b92-5c27-a359-1e5607af1ad9",
         link: "https://example.com/cozy-inn",
       },
     ],

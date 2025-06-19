@@ -1,5 +1,5 @@
 .hero-scrollable {
-  width: 50vw;
+  width: 70vw;
   overflow-y: auto;
   background-color: var(--background);
   box-sizing: border-box;
@@ -121,7 +121,100 @@
 
 .hero-scrollable-section p {
   font-size: 1.1rem;
-  width: 60%;
+  width: 70%;
   font-weight: 500;
   color: var(--text-color);
+}
+
+.hero-scrollable-hotel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+#hero-scrollable-fourth ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+  padding: 16;
+  margin: 0;
+}
+
+#hero-scrollable-fourth li {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--white);
+}
+
+#hero-scrollable-fourth h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.hero-scrollable-hotel-address {
+  font-size: 0.9rem !important;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.hero-scrollable-hotel-description {
+  font-size: 0.9rem !important;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.hero-scrollable-hotel-image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 16px;
+  /* shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hero-scrollable-hotel-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white);
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  width: "100%";
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: var(--accent-color-hover);
+  color: var(--text-color-hover);
+  transition: background-color 0.3s ease;
 }

@@ -50,15 +50,34 @@ export default function HeroScrollable() {
           <p className="hero-scrollable-section-description">
             {whereToStay.description}
           </p>
-          <ul className="hero-scrollable-hotels">
+          <ul>
             {whereToStay.hotels.map((hotel, index) => (
-              <li key={index} className="hero-scrollable-hotel">
+              <li key={index}>
                 <h3>{hotel.name}</h3>
-                <p>{hotel.address}</p>
-                <p>{hotel.description}</p>
-                <a href={hotel.link} target="_blank" rel="noopener noreferrer">
-                  Book Now
-                </a>
+                <p className="hero-scrollable-hotel-address">{hotel.address}</p>
+
+                <div className="hero-scrollable-hotel-image-card">
+                  {hotel.image && (
+                    <Image
+                      src={hotel.image}
+                      alt={hotel.name}
+                      width={300}
+                      height={200}
+                      className="hero-scrollable-hotel-image"
+                    />
+                  )}
+                  <p className="hero-scrollable-hotel-description">
+                    {hotel.description}
+                  </p>
+                  <a
+                    href={hotel.link}
+                    className="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book Now
+                  </a>
+                </div>
               </li>
             ))}
           </ul>
