@@ -1,0 +1,351 @@
+{
+  "groom": {
+    "name": "Chris",
+    "image": "https://example.com/chris.jpg"
+  },
+  "bride": {
+    "name": "Amaira",
+    "image": "https://example.com/amira.jpg"
+  },
+  "languages": [
+    {
+      "name": "English",
+      "locale": "en-US",
+      "icon": "https://flagcdn.com/us.svg",
+      "href": "/en"
+    },
+    {
+      "name": "Español",
+      "locale": "es-US",
+      "icon": "https://flagcdn.com/es.svg",
+      "href": "/es"
+    }
+  ],
+  "date": "Sábado, 15 de junio de 2024",
+  "location": "Lima, Perú",
+  "rsvpLink": "https://example.com/rsvp",
+  "weddingHashtag": "#AmairaYChris2024",
+  "weddingTheme": "Dorado Metálico",
+  "weddingColorPalette": ["#c15b00", "#f0e68c", "#ffffff"],
+  "landingPage": {
+    "title": "Lima, Perú",
+    "viewDetailButton": "Ver Detalles",
+    "image": "https://withjoy.com/assets/public/styles/prod/metallic_dipped_gold/6f3cda6b4fe671154cca8984ac7404730c3dd7262d643b3427fbd202bbf28bbf@2x",
+    "imageAlt": "Lima, Perú"
+  },
+  "story": {
+    "heading": "Nuestra Historia",
+    "paragraphs": [
+      "La primera vez que lo vi, los dos estábamos sentados en la misma sala de espera para un vuelo a San Diego. Recuerdo que lo miré y pensé, wow, qué guapo. Cuando llegué a mi asiento, vi que el asiento junto a mí estaba vacío y pensé, ¿no sería increíble si se sentara a mi lado?",
+      "Y así fue. Empezamos a hablar, él me pidió mi número y luego seguimos caminos separados. Estaba segura de que no volvería a saber de él. Pensaba en él a menudo, pero eventualmente se convirtió en una 'conexión perdida'. Unos meses después, de la nada, me envió un mensaje que decía ‘Feliz Año Nuevo’. Y desde ahí, conectamos como si nada hubiera cambiado."
+    ]
+  },
+  "tidbits": {
+    "heading": "Curiosidades",
+    "qa": [
+      {
+        "question": "¿Cómo se conocieron?",
+        "answer": "¡Lee Nuestra Historia!"
+      },
+      {
+        "question": "¿Quién dio el primer paso? ¿Cómo?",
+        "answer": "Él dio el primer paso cuando me escribió el día de Año Nuevo. Unas horas después, ya teníamos planes para cenar esa semana."
+      },
+      {
+        "question": "¿Quién sacará la basura?",
+        "answer": "¡Quien esté más cerca del tacho! :)"
+      },
+      {
+        "question": "¿Cuál fue su cita más memorable?",
+        "answer": "Una de nuestras primeras citas fue andar en bicicleta y luego hacer kayak por las cuevas marinas en San Diego. Nuestro guía bromeó que unas horas en un kayak compartido es suficiente para poner a prueba cualquier relación—¡y tenía razón! Pero lo logramos, y esa aventura sigue siendo una de nuestras favoritas."
+      },
+      {
+        "question": "¿Cuál es su actividad favorita juntos?",
+        "answer": "¡Nos encanta hacer paddleboard y andar en bicicleta por el parque!"
+      },
+      {
+        "question": "¿A dónde irán de luna de miel?",
+        "answer": "¡A cualquier lugar con playas hermosas!"
+      },
+      {
+        "question": "¿Cuál ha sido la mejor comida que han disfrutado juntos?",
+        "answer": "Nos regalamos una cena de cinco tiempos en París. Fue mágico."
+      },
+      {
+        "question": "¿Cuál ha sido el viaje más memorable que han hecho juntos?",
+        "answer": "En abril pasado pudimos ver la aurora boreal en Noruega. ¡Fue increíble!"
+      },
+      {
+        "question": "Estamos en la misma sintonía sobre",
+        "answer": "Lo que es importante para nosotros. Y eso es pasar tiempo con las personas que más amamos. (¡Ustedes!)"
+      }
+    ]
+  },
+  "whereToStay": {
+    "heading": "Dónde Hospedarse",
+    "description": "Aquí están nuestros hoteles favoritos cercanos con descuentos especiales solo para nuestros invitados. Asegúrate de reservar a través de nuestro sitio web para asegurar las tarifas. ¡Nos encantaría que todos se quedaran cerca, así que reserva antes de que se agoten las habitaciones!",
+    "hotels": [
+      {
+        "name": "Hotel Miraflores",
+        "address": "123 Ocean Drive, Miraflores, Lima",
+        "description": "Un hermoso hotel con vista al mar y una tarifa especial para nuestros invitados.",
+        "image": "https://withjoy.com/media/joy-places/8123c0d0-1b92-5c27-a359-1e5607af1ad9",
+        "link": "https://example.com/hotel-miraflores"
+      },
+      {
+        "name": "Lima Luxury Suites",
+        "address": "456 Sunset Blvd, Miraflores, Lima",
+        "description": "Suites de lujo con todas las comodidades necesarias para una estadía confortable.",
+        "image": "https://withjoy.com/media/joy-places/8123c0d0-1b92-5c27-a359-1e5607af1ad9",
+        "link": "https://example.com/lima-luxury-suites"
+      },
+      {
+        "name": "Cozy Inn",
+        "address": "789 Beachside Ave, Miraflores, Lima",
+        "description": "Una posada acogedora con un ambiente cálido y personal amable.",
+        "image": "https://withjoy.com/media/joy-places/8123c0d0-1b92-5c27-a359-1e5607af1ad9",
+        "link": "https://example.com/cozy-inn"
+      }
+    ],
+    "schedule": [
+      {
+        "date": "Viernes, 14 de junio de 2024",
+        "time": "6:00 PM",
+        "event": "Cena de Bienvenida en Hotel Miraflores",
+        "description": "Únete a nosotros para una cena de bienvenida y dar inicio a las celebraciones.",
+        "location": "Hotel Miraflores, 123 Ocean Drive, Miraflores, Lima",
+        "bulletPoints": [
+          {
+            "text": "Conoce a familia y amigos",
+            "icon": "people"
+          },
+          {
+            "text": "Disfruta de una deliciosa comida juntos",
+            "icon": "food"
+          }
+        ],
+        "links": [
+          {
+            "text": "Confirmar asistencia aquí",
+            "icon": "link",
+            "url": "https://example.com/rsvp-welcome-dinner"
+          }
+        ]
+      },
+      {
+        "date": "Sábado, 15 de junio de 2024",
+        "time": "3:00 PM",
+        "event": "Ceremonia de Boda en Lima Luxury Suites",
+        "description": "¡El evento principal! Acompáñanos en nuestra ceremonia de boda.",
+        "location": "Lima Luxury Suites, 456 Sunset Blvd, Miraflores, Lima",
+        "bulletPoints": [
+          {
+            "text": "Conoce a familia y amigos",
+            "icon": "people"
+          },
+          {
+            "text": "Disfruta de una deliciosa comida juntos",
+            "icon": "food"
+          }
+        ],
+        "links": [
+          {
+            "text": "Ver detalles de la ceremonia",
+            "icon": "link",
+            "url": "https://example.com/ceremony-details"
+          }
+        ]
+      },
+      {
+        "date": "Sábado, 15 de junio de 2024",
+        "time": "7:00 PM",
+        "event": "Recepción en Cozy Inn",
+        "description": "Celebra con nosotros en la recepción con comida, bebidas y baile.",
+        "location": "Cozy Inn, 789 Beachside Ave, Miraflores, Lima",
+        "bulletPoints": [
+          {
+            "text": "Conoce a familia y amigos",
+            "icon": "people"
+          },
+          {
+            "text": "Disfruta de una deliciosa comida juntos",
+            "icon": "food"
+          }
+        ],
+        "links": [
+          {
+            "text": "Ver detalles de la ceremonia",
+            "icon": "link",
+            "url": "https://example.com/ceremony-details"
+          }
+        ]
+      }
+    ],
+    "travelTips": [
+      {
+        "title": "Consejos de Viaje",
+        "description": "Aquí hay algunos consejos para ayudarte a planear tu viaje a Lima, Perú.",
+        "tips": [
+          {
+            "title": "Requisitos de Visa",
+            "icon": "passport",
+            "content": "Verifica si necesitas una visa para ingresar a Perú. La mayoría de los viajeros pueden ingresar sin visa por hasta 183 días.",
+            "links": [
+              {
+                "text": "Más información",
+                "icon": "link",
+                "url": "https://example.com/visa-requirements"
+              }
+            ]
+          },
+          {
+            "title": "Moneda",
+            "icon": "money",
+            "content": "La moneda en Perú es el Sol (PEN). Asegúrate de cambiar algo de dinero antes de llegar o en el aeropuerto.",
+            "links": [
+              {
+                "text": "Cambio de Moneda",
+                "icon": "link",
+                "url": "https://example.com/currency-exchange"
+              }
+            ]
+          },
+          {
+            "title": "Transporte",
+            "icon": "car",
+            "content": "Lima tiene muchas opciones de transporte, incluyendo taxis, buses y servicios de transporte por aplicación. Considera descargar una app local para mayor comodidad.",
+            "links": [
+              {
+                "text": "Opción de Transporte 1",
+                "icon": "link",
+                "url": "https://example.com/transportation-options"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+
+    "complementaryShuttle": {
+      "title": "Servicio de Transporte Gratuito",
+      "description": "Nos complace ofrecer un servicio de transporte gratuito para nuestros invitados. El transporte funcionará desde los hoteles hacia el lugar de la boda y de regreso.",
+      "schedule": [
+        {
+          "time": "2:00 PM",
+          "from": "Hotel Miraflores",
+          "to": "Lima Luxury Suites",
+          "description": "Servicio de transporte desde el Hotel Miraflores hacia Lima Luxury Suites para la ceremonia de boda."
+        },
+        {
+          "time": "4:00 PM",
+          "from": "Lima Luxury Suites",
+          "to": "Cozy Inn",
+          "description": "Servicio de transporte desde Lima Luxury Suites hacia Cozy Inn para la recepción."
+        },
+        {
+          "time": "10:00 PM",
+          "from": "Cozy Inn",
+          "to": "Hotel Miraflores",
+          "description": "Servicio de transporte desde Cozy Inn de regreso al Hotel Miraflores después de la recepción."
+        }
+      ]
+    },
+
+    "favoriteRestaurants": {
+      "title": "Restaurantes Favoritos",
+      "description": "Aquí te dejamos algunos de nuestros restaurantes favoritos en Lima que recomendamos durante tu visita.",
+      "restaurants": [
+        {
+          "name": "Cevichería El Rey",
+          "address": "123 Seafood St, Miraflores, Lima",
+          "description": "Famoso por su ceviche fresco y platos de mariscos. ¡Una visita obligada!",
+          "link": "https://example.com/cevicheria-el-rey"
+        },
+        {
+          "name": "Pasta Perfection",
+          "address": "456 Pasta Ave, Miraflores, Lima",
+          "description": "Platos de pasta italiana auténtica hechos con amor. Perfecto para una cena romántica.",
+          "link": "https://example.com/pasta-perfection"
+        },
+        {
+          "name": "Sushi Paradise",
+          "address": "789 Sushi Blvd, Miraflores, Lima",
+          "description": "Delicioso sushi y cocina japonesa en un ambiente acogedor.",
+          "link": "https://example.com/sushi-paradise"
+        }
+      ]
+    },
+
+    "thingsToDo": {
+      "title": "Cosas que Hacer",
+      "description": "Lima es una ciudad vibrante con mucho por ver y hacer. Aquí están algunas de nuestras recomendaciones favoritas.",
+      "activities": [
+        {
+          "name": "Visita el Centro Histórico",
+          "description": "Explora el sitio Patrimonio de la Humanidad por la UNESCO con su impresionante arquitectura colonial.",
+          "link": "https://example.com/historic-center"
+        },
+        {
+          "name": "Explora Miraflores",
+          "description": "Pasea por los acantilados de Miraflores y disfruta de la vista al océano.",
+          "link": "https://example.com/miraflores"
+        },
+        {
+          "name": "Prueba la Cocina Local",
+          "description": "No te pierdas los platos tradicionales peruanos en restaurantes locales.",
+          "link": "https://example.com/local-cuisine"
+        }
+      ]
+    },
+
+    "qAndA": {
+      "title": "Preguntas Frecuentes",
+      "description": "Sabemos que pueden surgir preguntas sobre la boda, el viaje u otras cosas. Aquí algunas respuestas a las más comunes.",
+      "questions": [
+        {
+          "question": "¿Qué debo usar en la boda?",
+          "answer": "El código de vestimenta es semi-formal. ¡Queremos que todos se sientan cómodos y con estilo!"
+        },
+        {
+          "question": "¿Puedo llevar acompañante?",
+          "answer": "¡Sí! Por favor indícalo en tu confirmación de asistencia."
+        },
+        {
+          "question": "¿Qué pasa si tengo restricciones alimentarias?",
+          "answer": "Por favor infórmanos de cualquier restricción alimentaria en tu confirmación de asistencia para poder adaptarnos."
+        }
+      ]
+    },
+
+    "weddingParty": {
+      "title": "Corte de Honor",
+      "description": "Conoce a nuestro increíble cortejo nupcial que nos acompañará en este día tan especial.",
+      "members": [
+        {
+          "name": "John Doe",
+          "role": "Novio",
+          "description": "El novio, emocionado de casarse con el amor de su vida.",
+          "photo": "https://example.com/john-doe.jpg"
+        },
+        {
+          "name": "Jane Smith",
+          "role": "Novia",
+          "description": "La novia, feliz de celebrar este día tan especial.",
+          "photo": "https://example.com/jane-smith.jpg"
+        },
+        {
+          "name": "Emily Johnson",
+          "role": "Dama de Honor",
+          "description": "La hermana y mejor amiga de la novia, apoyándola en cada paso del camino.",
+          "photo": "https://example.com/emily-johnson.jpg"
+        },
+        {
+          "name": "Michael Brown",
+          "role": "Padrino",
+          "description": "El mejor amigo del novio, listo para celebrar y apoyar.",
+          "photo": "https://example.com/michael-brown.jpg"
+        }
+      ]
+    }
+  }
+}

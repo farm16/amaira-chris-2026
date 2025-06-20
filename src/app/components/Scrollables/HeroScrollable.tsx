@@ -1,12 +1,10 @@
 import Image from "next/image";
 import "./HeroScrollable.css";
 import ChevronDown from "../Icons/ChevronDown";
-import { weddingContent } from "@/app/data/weddingContent";
+import { useMessages } from "next-intl";
 
 export default function HeroScrollable() {
-  const { story, tidbits, whereToStay } = weddingContent;
-
-  // i need to check if domain has #tidbits and scroll to it i need to react to it
+  const messages = useMessages();
 
   return (
     <section className="hero-scrollable">
@@ -14,32 +12,36 @@ export default function HeroScrollable() {
         {/* First Section */}
         <div id="hero-scrollable-first" className="hero-scrollable-section">
           <div className="hero-scrollable-first-title">
-            <h2>Lima, Peru</h2>
-            <a href="#story">View Details</a>
+            <h2>{messages.landingPage.title}</h2>
+            <a href="#story">{messages.landingPage.viewDetailButton}</a>
             <ChevronDown />
           </div>
           <Image
-            src="https://withjoy.com/assets/public/styles/prod/metallic_dipped_gold/6f3cda6b4fe671154cca8984ac7404730c3dd7262d643b3427fbd202bbf28bbf@2x"
-            alt="Lima, Peru"
+            src={messages.landingPage.image}
+            alt={messages.landingPage.imageAlt}
             width={800}
             height={150}
             className="hero-scrollable-image"
           />
         </div>
-
         {/* Story Section */}
         <div id="story" className="hero-scrollable-section">
-          <h2>{story.heading}</h2>
-          {story.paragraphs.map((text, index) => (
+          <h2>{messages.story.heading}</h2>
+
+          {(messages.story.paragraphs as string[]).map((text, index) => (
             <p key={index}>{text}</p>
           ))}
           <div className="spacer" />
         </div>
-
         {/* Tidbits Section */}
         <div id="tidbits" className="hero-scrollable-section">
-          <h2>{tidbits.heading}</h2>
-          {tidbits.qa.map(({ question, answer }, index) => (
+          <h2>{messages.tidbits.heading}</h2>
+          {(
+            messages.tidbits.qa as {
+              question: string;
+              answer: string;
+            }[]
+          ).map(({ question, answer }, index) => (
             <div className="hero-scrollable-section-qa" key={index}>
               <p className="hero-scrollable-section-question">{question}</p>
               <p className="hero-scrollable-section-answer">{answer}</p>
@@ -50,12 +52,20 @@ export default function HeroScrollable() {
 
         {/* Where to stay */}
         <div id="whereToStay" className="hero-scrollable-section">
-          <h2>{whereToStay.heading}</h2>
+          <h2>{messages.whereToStay.heading}</h2>
           <p className="hero-scrollable-section-description">
-            {whereToStay.description}
+            {messages.whereToStay.description}
           </p>
           <ul>
-            {whereToStay.hotels.map((hotel, index) => (
+            {(
+              messages.whereToStay.hotels as {
+                name: string;
+                address: string;
+                image?: string;
+                description: string;
+                link: string;
+              }[]
+            ).map((hotel, index) => (
               <li key={index}>
                 <h3>{hotel.name}</h3>
                 <p className="hero-scrollable-hotel-address">{hotel.address}</p>
